@@ -7,7 +7,7 @@ const app = express();
 
 // ✅ Correct CORS Middleware
 const corsOptions = {
-    origin: ["http://localhost:5173", "https://my-word-frontend.vercel.app"], // ✅ No trailing slash
+    origin: ["https://my-word-frontend.vercel.app"], // ✅ No trailing slash
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type"],
     credentials: true, // ✅ If using cookies
