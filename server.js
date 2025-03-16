@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 const corsOptions = {
-    origin: ["http://localhost:5173", "https://your-frontend-domain.vercel.app"],
+    origin: ["http://localhost:5173", "https://my-word-frontend.vercel.app/"],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type"],
 };
